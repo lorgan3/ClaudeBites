@@ -165,7 +165,7 @@ Available tools:
 async function main() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
-  
+
   console.error("ClaudeBites MCP Server running on stdio");
 }
 
